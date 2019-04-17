@@ -2,6 +2,6 @@
 *.jar
 *.war
 *.ear
-.idea/
-.target/
-.out/
+.idea/*
+.target/*
+.out/*
