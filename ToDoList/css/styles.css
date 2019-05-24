@@ -1,0 +1,51 @@
+body {
+    font-size: 16pt;
+    font-family: Tahoma, Verdana, Arial;
+}
+
+#main {
+    margin: 12px;
+}
+
+#header {
+    font-size: 20pt;
+    background-color: lightskyblue;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+#btn-add {
+    border-radius: 10px;
+    width: 80px;
+    height: 37px;
+}
+
+#tasks {
+    border: 5px solid lightskyblue;
+}
+
+#new-todo {
+    height: 32px;
+    width: 350px;
+    border-radius: 10px;
+    font-family: Tahoma, Verdana, Arial;
+}
+
+input.del {
+    width: 16px;
+    margin-left: -90px;
+}
+
+li.task {
+    cursor: default;
+    margin-left: 80px;
+}
+
+li.task:hover {
+    background-color: lightskyblue;
+}
+
+li.task span {
+    margin-left: 60px;
+}

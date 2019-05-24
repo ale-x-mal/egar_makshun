@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MyTodoList</title>
+    <style>
+        body {
+            font-size: 16pt;
+            font-family: Tahoma, Verdana, Arial;
+        }
+
+        #main {
+            margin: 12px;
+        }
+        
+        #header {
+            font-size: 20pt;
+            background-color: lightskyblue;
+            padding: 20px;
+            color: white;
+            text-align: center;
+        }
+        
+        #btn-add {
+            border-radius: 10px;
+            width: 80px;
+            height: 37px;
+        }
+        
+        #tasks {
+            border: 5px solid lightskyblue;
+        }
+
+        #new-todo {
+            height: 32px;
+            width: 350px;
+            border-radius: 10px;
+            font-family: Tahoma, Verdana, Arial;
+        }
+
+        input.del {
+            width: 16px;
+            margin-left: -90px;
+        }
+
+        li.task {
+            cursor: default;
+            margin-left: 80px;
+        }
+        
+        li.task:hover {
+            background-color: lightskyblue;
+        }
+
+        li.task span {
+            margin-left: 60px;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="header">
+            <h2>My ToDo List</h2>
+            <input id="new-todo" placeholder=" Что нужно сделать?" />
+            <input id="btn-add" class="btn-common" type="button" value="Добавить">
+        </div>
+
+
+        <div id="tasks">
+            <ol>
+                <li class="task"><input class="del" type="image" src="Trash.jpg"><input type="checkbox"><span>Помыть пол</span></li>
+                <li class="task"><input class="del" type="image" src="Trash.jpg"><input type="checkbox"><span>Купить продукты</span></li>
+                <li class="task"><input class="del" type="image" src="Trash.jpg"><input type="checkbox"><span>Приготовить обед</span></li>
+                <li class="task"><input class="del" type="image" src="Trash.jpg"><input type="checkbox"><span>Забрать ребенка из сада</span></li>
+                <li class="task"><input class="del" type="image" src="Trash.jpg"><input type="checkbox"><span>Помыть машину</span></li>
+            </ol>
+        </div>
+
+    </div>
+</body>
+</html>
