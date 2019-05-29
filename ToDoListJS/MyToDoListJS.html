@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>MyTodoList</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.12/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/javascript.js"></script>
+
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="header">
+            <h2>My ToDo List</h2>
+            <input id="new-todo" placeholder=" Что нужно сделать?" />
+            <input id="btn-add" class="btn-common" type="button" value="Добавить">
+            <br>
+            <input id="important" type="checkbox"><span style="font-size: 18px">Особо важное дело</span>
+        </div>
+
+
+        <div class="tasks">
+            <span>Текущие задачи:</span>
+            <ol id="list-not-ready">
+            </ol>
+            <a id="btn-remove-all" class="btn-common" href="#">Начать новый список</a>
+        </div>
+
+        <div id="tasksDone" class="tasks">
+            <span>Выполненные задачи:</span>
+            <ul id="list-ready">
+            </ul>
+            <a id="btn-remove-completed" class="btn-common" href="#">Удалить выполненные</a>
+        </div>
+
+    </div>
+</body></html>
